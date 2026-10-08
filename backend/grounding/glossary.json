@@ -1,0 +1,32 @@
+{
+  "terms": {
+    "ownership": "kepemilikan saham",
+    "shareholders": "pemegang saham",
+    "valuation": "valuasi",
+    "dividend yield": "imbal hasil dividen",
+    "payout ratio": "rasio pembayaran dividen",
+    "total equity": "total ekuitas",
+    "net income": "laba bersih",
+    "earnings": "laba bersih",
+    "downside risk": "risiko penurunan",
+    "foreign flow": "arus dana asing",
+    "catalyst": "katalis",
+    "loan-to-deposit ratio": "rasio kredit terhadap dana pihak ketiga",
+    "ldr": "rasio kredit terhadap dana pihak ketiga (LDR)",
+    "gross loan": "kredit yang disalurkan",
+    "total deposit": "dana pihak ketiga",
+    "net interest income": "pendapatan bunga bersih",
+    "pe ratio": "rasio harga terhadap laba (PER)",
+    "pb ratio": "rasio harga terhadap nilai buku (PBV)",
+    "market cap": "kapitalisasi pasar",
+    "revenue": "pendapatan",
+    "provision": "pencadangan"
+  },
+  "banned_metric_terms": [
+    "permukaan alam",
+    "margin koperasi",
+    "kualitas produk",
+    "hasil panen",
+    "gross margin pertanian"
+  ]
+}

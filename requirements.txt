@@ -1,0 +1,7 @@
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+requests==2.32.3
+python-dotenv==1.0.1
+pydantic==2.10.3
+yfinance==1.7.0
+curl_cffi==0.16.3

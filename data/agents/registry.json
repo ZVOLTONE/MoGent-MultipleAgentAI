@@ -1,0 +1,185 @@
+{
+  "agents": [
+    {
+      "agent_id": "catalyst_analyst",
+      "versions": [
+        "1.0.0"
+      ],
+      "kind": "base",
+      "status": "active",
+      "parents": [],
+      "persona_fingerprint": null,
+      "created_at": null,
+      "use_count": 0,
+      "sha256": "391786637e5c88305ab711bb18aca06e71b5f19f939a3da8a6dfd22d75571ad9"
+    },
+    {
+      "agent_id": "fundamental_analyst",
+      "versions": [
+        "1.0.0"
+      ],
+      "kind": "base",
+      "status": "active",
+      "parents": [],
+      "persona_fingerprint": null,
+      "created_at": null,
+      "use_count": 0,
+      "sha256": "7b10575be76b45a7e07d50a39749b73fc25765b4095766a2356f502fcd086bd3"
+    },
+    {
+      "agent_id": "investment_guide",
+      "versions": [
+        "1.0.0"
+      ],
+      "kind": "base",
+      "status": "active",
+      "parents": [],
+      "persona_fingerprint": null,
+      "created_at": null,
+      "use_count": 0,
+      "sha256": "8ae904826326ec889ff3be9f98e5652b1bbb18142364e59c27f082bc836369e8"
+    },
+    {
+      "agent_id": "macro_intelligence",
+      "versions": [
+        "1.1.0"
+      ],
+      "kind": "base",
+      "status": "active",
+      "parents": [],
+      "persona_fingerprint": null,
+      "created_at": null,
+      "use_count": 0,
+      "sha256": "d974c509b2ffc5584afecef13891c01591e9f57d3eaad2e0da46dc2d56a791d3"
+    },
+    {
+      "agent_id": "news_sentiment",
+      "versions": [
+        "1.0.0"
+      ],
+      "kind": "base",
+      "status": "active",
+      "parents": [],
+      "persona_fingerprint": null,
+      "created_at": null,
+      "use_count": 0,
+      "sha256": "9bd80a5fb6985a11b7557596aebb3a0a0cb20daebe0113e4feea9a7432fdd523"
+    },
+    {
+      "agent_id": "presentation_composer",
+      "versions": [
+        "1.0.0"
+      ],
+      "kind": "base",
+      "status": "active",
+      "parents": [],
+      "persona_fingerprint": null,
+      "created_at": null,
+      "use_count": 0,
+      "sha256": "31bbcce61c188408ec761ecedbdb0d7442d8eaf9fdecc387d72af8bc6deee3c6"
+    },
+    {
+      "agent_id": "risk_challenger",
+      "versions": [
+        "1.0.0"
+      ],
+      "kind": "base",
+      "status": "active",
+      "parents": [],
+      "persona_fingerprint": null,
+      "created_at": null,
+      "use_count": 0,
+      "sha256": "fdf88647739f3f5d75675611d5f8be0817cbb7e3d98c1eac85ca67e43f1618f0"
+    },
+    {
+      "agent_id": "valuation_analyst",
+      "versions": [
+        "1.0.0"
+      ],
+      "kind": "base",
+      "status": "active",
+      "parents": [],
+      "persona_fingerprint": null,
+      "created_at": null,
+      "use_count": 0,
+      "sha256": "f67db91969a11a39e9a19133e42e721aaaac208548d5e408415de06672160337"
+    },
+    {
+      "agent_id": "wealth_guardian",
+      "versions": [
+        "1.0.0"
+      ],
+      "kind": "base",
+      "status": "active",
+      "parents": [],
+      "persona_fingerprint": null,
+      "created_at": null,
+      "use_count": 0,
+      "sha256": "98bd2441f5929bf279fe6a457669ccfb445c684b91731a24ba33812a156b0c86"
+    },
+    {
+      "agent_id": "derived_beginner_wealth",
+      "versions": [
+        "1.0.0"
+      ],
+      "kind": "derived",
+      "status": "active",
+      "parents": [
+        "investment_guide@1.0.0",
+        "wealth_guardian@1.0.0"
+      ],
+      "persona_fingerprint": "fp_b2447a70a6505cc8",
+      "created_at": "2026-10-07T22:17:04+07:00",
+      "use_count": 0,
+      "sha256": "b4663e4e0e3eb5bc98ad0938391fbc92c5990ffa097d9839d812b67bf55a78c5"
+    },
+    {
+      "agent_id": "derived_fundamental_macro",
+      "versions": [
+        "1.0.0"
+      ],
+      "kind": "derived",
+      "status": "active",
+      "parents": [
+        "fundamental_analyst@1.0.0",
+        "macro_intelligence@1.1.0"
+      ],
+      "persona_fingerprint": "fp_b8566c59b47d7ad5",
+      "created_at": "2026-10-07T23:04:40+07:00",
+      "use_count": 0,
+      "sha256": "a6a99bf4889a26866577be2b6610b75d7208ddbbdb7c4468abcdba9db08731bf"
+    },
+    {
+      "agent_id": "derived_beginner_wealth_2",
+      "versions": [
+        "1.0.0"
+      ],
+      "kind": "derived",
+      "status": "active",
+      "parents": [
+        "investment_guide@1.0.0",
+        "wealth_guardian@1.0.0"
+      ],
+      "persona_fingerprint": "fp_8e11d11052ee693a",
+      "created_at": "2026-10-08T16:59:01+07:00",
+      "use_count": 0,
+      "sha256": "f3a1a4d979f6deadedbe4b9f76afda12cbaf8bad6eca6b16c5ad3f61dc846642"
+    },
+    {
+      "agent_id": "derived_beginner_wealth_3",
+      "versions": [
+        "1.0.0"
+      ],
+      "kind": "derived",
+      "status": "active",
+      "parents": [
+        "investment_guide@1.0.0",
+        "wealth_guardian@1.0.0"
+      ],
+      "persona_fingerprint": "fp_a94ce04b655081c5",
+      "created_at": "2026-10-08T17:01:00+07:00",
+      "use_count": 0,
+      "sha256": "1fe803e99d94c83ea2d8c29d55af6450ebd6c6b14a2046d2b0cd0513a2b8a0ce"
+    }
+  ]
+}

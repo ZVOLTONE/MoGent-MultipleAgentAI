@@ -1,0 +1,26 @@
+{
+  "template": "general",
+  "applies_to_sectors": ["*"],
+  "applies_to_subsectors": ["*"],
+  "primary_fields": [
+    "revenue", "earnings", "gross_profit", "operating_pnl", "total_assets",
+    "total_equity", "total_debt", "free_cash_flow", "outstanding_shares"
+  ],
+  "derived_metrics": {
+    "roe": {
+      "label": "ROE (laba bersih / total ekuitas)",
+      "formula": "earnings / total_equity",
+      "unit": "%",
+      "scale": 100
+    },
+    "net_margin": {
+      "label": "Margin laba bersih",
+      "formula": "earnings / revenue",
+      "unit": "%",
+      "scale": 100
+    }
+  },
+  "forbidden_metrics": [],
+  "unavailable_note": "Sebutkan di Keterbatasan jika suatu metrik tidak tersedia dalam data.",
+  "narrative_focus": ["pertumbuhan pendapatan", "profitabilitas", "arus kas", "utang", "valuasi", "dividen"]
+}

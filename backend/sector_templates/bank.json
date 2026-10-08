@@ -1,0 +1,26 @@
+{
+  "template": "bank",
+  "applies_to_sectors": ["financials"],
+  "applies_to_subsectors": ["banks", "bank"],
+  "primary_fields": [
+    "net_interest_income", "gross_loan", "total_deposit", "earnings",
+    "revenue", "total_assets", "total_equity", "provision", "outstanding_shares"
+  ],
+  "derived_metrics": {
+    "ldr": {
+      "label": "LDR (rasio kredit terhadap dana pihak ketiga)",
+      "formula": "gross_loan / total_deposit",
+      "unit": "%",
+      "scale": 100
+    },
+    "roe": {
+      "label": "ROE (laba bersih / total ekuitas)",
+      "formula": "earnings / total_equity",
+      "unit": "%",
+      "scale": 100
+    }
+  },
+  "forbidden_metrics": ["gross_margin", "kualitas produk", "hasil panen"],
+  "unavailable_note": "Metrik NIM, NPL, CAR, dan CASA tidak dijamin tersedia dalam data; sebutkan di Keterbatasan jika diminta.",
+  "narrative_focus": ["pertumbuhan kredit", "pertumbuhan dana pihak ketiga", "ketahanan permodalan", "profitabilitas", "valuasi", "dividen"]
+}

@@ -1,0 +1,34 @@
+# Secrets
+.env
+.kiro
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Data runtime (derived agents & conversations are regenerated; keep base + registry)
+data/conversations/*.json
+data/agents/derived/*.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+
+AssetVideo/
+progres.md
+output_log.md
+PRD_AISector-MoGent_v1.1.md
+PRD_AISector-MoGent_Web-Cards_v1.0.md
+
+componentORB/
+guide_design/
+WebVideo/
+.kiro/
+.gemini/
+.agents/

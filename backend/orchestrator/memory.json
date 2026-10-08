@@ -1,0 +1,22 @@
+{
+  "routing_rules": {
+    "price": "simple_direct_tool",
+    "single_metric": "single_capability",
+    "education": "single_persona_agent",
+    "fundamental": "single_or_factory",
+    "macro": "macro_proxy",
+    "multi_analysis": "multi_agent",
+    "out_of_scope": "reject"
+  },
+  "composition_rules": {
+    "match_threshold": 0.75,
+    "prefer_reuse": true,
+    "max_parents": 3
+  },
+  "capability_catalog": [
+    "investment_education", "fundamental_analysis", "valuation_analysis",
+    "risk_analysis", "dividend_analysis", "macro_analysis", "news_sentiment",
+    "catalyst_analysis"
+  ],
+  "notes": "Memory menyimpan evidence & pertanyaan, bukan klaim asisten (PRD 13)."
+}
